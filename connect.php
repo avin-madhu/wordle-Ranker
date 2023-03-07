@@ -1,5 +1,8 @@
 <?php
 
+$firstnametext = $_POST['firstnamee'];
+$scoreNum = $_POST['scoreNum'];
+
 try{
     $dsn = "mysql: dbname=id20413256_wordle_ranker;host=localhost";
     $user = "id20413256_wordleranker";
