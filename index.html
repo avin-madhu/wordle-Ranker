@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navBar" >
+      <ul>
+        
+            <li><img class="logo" src="logo.png" alt="logo"></li>
+           <span class="Wordle-Text" id="wordleText">Wordle Ranker</span>
+      
+      </ul>
+    </nav>
+      
+    <div>
+    
+      <form action="connect.php" method="post">
+           <div class="form">
+          <div class="title">Welcome</div>
+          <div class="subtitle">Enter name and check your rank!</div>
+
+          <div class="input-container ic1">
+            <input id="firstName" class="input" type="text" placeholder=" " value="" name="firstNamee" />
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">First name</label>
+          </div>
+           
+          
+          <div class="input-container ic1">
+            <input id="ScoreNum" class="input" type="number" placeholder=" " value="" name="scoreNum" />
+            <div class="cut"></div>
+            <label for="ScoreNum" class="placeholder">your score</label>
+          </div>
+
+      </form>
+   
+        
+
+        <button class="button-64" role="button"  onclick="alertm();"><span class="text">Check Rank</span></button>
+ </div>   
+    
+
+
+</body>
+</html>
